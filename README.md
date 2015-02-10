@@ -18,7 +18,6 @@ Permutations & Combinations
 
 ### Permutations
 
-
 __permutations__: consider the same combinations in different orders to be unique. For example: {a, b, c} and {c, b, a} are different permutations, but are a single combination.
 
 ### Power Set
@@ -37,9 +36,9 @@ __combination__: a way of selecting members from a grouping, such that (unlike p
 
 For sports teams the order of the lineups does not matter, therefore we need all _combinations_ of 8 men and 3 women lineups without replacement.
 
-__k-combination__: commonly known as "n choose k". a subset of k distinct elements of S. If you have 14 players but can only choose 8 for a single lineup, then all possible combinations of 8 are the k-combinations. Another way to say this is "n choose k" or "14 choose 8" The number of k-combinations is equal to the binomial coefficient:
-
 __k-selection or k-multiset__: refers to combinations where repition of items is allowed. This doesn't apply to the lineup as a player can only be on the lineup once.
+
+__k-combination__: commonly known as "n choose k". a subset of k distinct elements of S. If you have 14 players but can only choose 8 for a single lineup, then all possible combinations of 8 are the k-combinations. Another way to say this is "n choose k" or "14 choose 8" The number of k-combinations is equal to the _binomial coefficient_:
 
 - n: number of items
 - k: number of chosen items
@@ -67,9 +66,10 @@ Potential Algorithms
 
 > Given some items, pack the knapsack to get the maximum total value. Each item has some weight and some value. Total weight that we can carry is no more than some fixed number W. So we must consider weights of items as well as their value.
 
-I can translate a Player to have a value or power rating, but how do I handle the weight? Can the weight correlate to the number of games the player has already played? I could use a cool down method to reduce the weight after each linuep is generated.
+I can translate a Player to have a value or power rating, but how do I handle the weight/cost? Can the weight correlate to the number of games the player has already played? I could use a cool down method to reduce the weight after each linuep is generated.
 
 To Do
 -----
 
 - [ ] What is the [Twelvefold way](http://en.wikipedia.org/wiki/Twelvefold_way)?
+- [ ] What is a binomial coefficient?
