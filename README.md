@@ -71,5 +71,6 @@ I can translate a Player to have a value or power rating, but how do I handle th
 To Do
 -----
 
+- [ ] Is this like the Airline Crew Recovery Problem?
 - [ ] What is the [Twelvefold way](http://en.wikipedia.org/wiki/Twelvefold_way)?
 - [ ] What is a binomial coefficient?
